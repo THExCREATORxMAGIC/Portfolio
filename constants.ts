@@ -89,21 +89,13 @@ export const RESUME: ResumeData = {
       description: "Predicts and analyzes the impact of lifestyle choices on the likelihood of developing heart disease using supervised learning."
     }
   ],
-  education: [{
+  education: {
     degree: "Bachelor of Technology",
     university: "GLA University",
     period: "Jun 2019 – Jun 2023",
     location: "Mathura, Uttar Pradesh",
     details: "Obtained a full-time B.Tech degree in Computer Science, specializing in machine learning and IoT."
-  },
-  {
-    degree: "Advance Program for IoT Devices with AI/ML",
-    university: "GLA University",
-    Duration: "1 Year",
-    location: "Mathura, Uttar Pradesh",
-    details: "Worked with CSED for Development of Android Application with realtime ineraction with Servers, Leaned About working machanism of Sensors and IoT Devices"
-  }
-}],
+},
 
 export const WALLPAPERS: Wallpaper[] = [
   {

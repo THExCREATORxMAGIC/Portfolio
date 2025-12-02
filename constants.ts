@@ -6,21 +6,22 @@ export const RESUME: ResumeData = {
     phone: "7668990337",
     location: "Mathura, Uttar Pradesh",
     social: [
-      { label: "Github", url: "https://github.com/THExCREATORxMAGIC" },
+      { label: "Github", url: "https://github.com/THExCREATORxMAGIC/" },
       { label: "Linkedin", url: "https://www.linkedin.com/in/prateek--mishra/" }
     ]
   },
   profile: "Highly motivated developer with proficiency in Python and machine learning model development. Brings 1.5 years of experience as a developer intern and 6 months as an analyst. Currently, I'm engrossed in generative AI projects and actively seeking developer opportunities.",
   skills: [
-    { category: "Technical Skills", items: ["C Programming", "Python", "Java", "Machine Learning", "React", "JavaScript", "HTML5", "CSS3", "PHP", "IoT", "Artificial Intelligence", "Analysis", "SQL", "NoSQL", "PostgreSQL", "Fast API", "Restful API"] },
+    { category: "Technical Skills", items: ["C Programming", "Go Lang", "Python", "Java", "Machine Learning", "React", "JavaScript", "HTML5", "CSS3", "PHP", "IoT", "Artificial Intelligence", "Analysis", "SQL", "NoSQL", "PostgreSQL", "Fast API", "Restful API"] },
     { category: "Frameworks", items: ["Django", "Tensorflow", "Pytorch", "PySpark", "OpenCV", "Laravel", "Matplotlib", "Pandas", "Numpy", "Kaggle", "Flask", "Clerk", "Bootstrap", "Git"] },
-    { category: "Tools", items: ["Power BI", "Tableau", "Heroku", "Kubernetes", "Docker", "Google Collab", "PTC Thingworx", "WorkBench"] },
-    { category: "Soft Skills", items: ["Problem-Solving", "Analytical Skills", "Communication", "Adaptability", "OOP", "DSA","Business Development","Critical Thinking"] }
+    { category: "Tools", items: ["Power BI", "Tableau", "Heroku", "Kubernetes", "Docker", "Google Collab", "PTC Thingworx", "LeadSquared"] },
+    { category: "Soft Skills", items: ["Problem-Solving", "Analytical Skills", "Communication", "Adaptability", "OOP", "DSA", "Business Development", "Critical Think"] }
   ],
   experience: [
+    
     {
-      company: "RUS Education (Meduhub)",
-      role: "Software Developer Engineer 1",
+      company: "RUS Education [MEDUHUB]",
+      role: "Software Devepment Engineer 1",
       period: "Sep 2023 - Present",
       location: "Noida, Uttar Pradesh",
       points: ["I worked on building a low-latency live-streaming platform for coaching programs using WebRTC/HLS. I developed core session APIs for starting, stopping, and recording sessions while integrating real-time features like chat, Q&A, and instructor controls. I also implemented secure stream access using JWT and signed URLs, added automatic recording and VOD generation, and optimized playback performance using adaptive bitrate streaming and CDN integration. Additionally, I contributed to monitoring stream health and latency to ensure a smooth and reliable viewer experience."]
@@ -95,7 +96,8 @@ export const RESUME: ResumeData = {
     period: "Jun 2019 – Jun 2023",
     location: "Mathura, Uttar Pradesh",
     details: "Obtained a full-time B.Tech degree in Computer Science, specializing in machine learning and IoT."
-}
+  }
+};
 
 export const WALLPAPERS: Wallpaper[] = [
   {
@@ -106,7 +108,7 @@ export const WALLPAPERS: Wallpaper[] = [
   },
   {
     id: 'bloom-dark',
-    name: 'Flower',
+    name: 'Windows Bloom Dark',
     url: 'https://images.wallpaperscraft.com/image/single/flower_bud_bloom_138631_3840x2160.jpg',
     thumbnail: 'https://images.wallpaperscraft.com/image/single/flower_bud_bloom_138631_3840x2160.jpg'
   },

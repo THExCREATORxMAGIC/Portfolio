@@ -95,7 +95,7 @@ export const RESUME: ResumeData = {
     period: "Jun 2019 – Jun 2023",
     location: "Mathura, Uttar Pradesh",
     details: "Obtained a full-time B.Tech degree in Computer Science, specializing in machine learning and IoT."
-},
+}
 
 export const WALLPAPERS: Wallpaper[] = [
   {
